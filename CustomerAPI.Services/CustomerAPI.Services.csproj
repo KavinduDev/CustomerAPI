@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CustomerAPI.DataAccess\CustomerAPI.DataAccess.csproj" />
+    <ProjectReference Include="..\CustomerAPI.Models\CustomerAPI.Models.csproj" />
+  </ItemGroup>
+
+</Project>
